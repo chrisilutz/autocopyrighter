@@ -17,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/erazemk/autocopyrighter.git"
   },
-  "publisher": "Erazem Kokot",
+  "publisher": "erazemk",
   "preview": true,
   "version": "0.1.0",
   "engines": {
