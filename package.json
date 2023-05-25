@@ -1,25 +1,25 @@
 {
-  "name": "copyrighter",
-  "displayName": "Copyrighter",
+  "name": "autocopyrighter",
+  "displayName": "AutoCopyrighter",
   "description": "Automates the process of including your copyright and license in your code.",
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Apache2",
   "keywords": [
     "copyright",
     "license",
     "intellectual property"
   ],
-  "icon": "CopyrighterIcon.png",
+  "icon": "res/icon.png",
   "galleryBanner": {
-    "color": "#3C3B6E",
+    "color": "#3F51B5",
     "theme": "dark"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/max-wilkinson/copyrighter.git"
+    "url": "https://github.com/erazemk/autocopyrighter.git"
   },
-  "publisher": "FordLabs",
+  "publisher": "Erazem Kokot",
   "preview": true,
-  "version": "0.0.4",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.35.0"
   },
@@ -53,12 +53,12 @@
       }
     ],
     "configuration": {
-      "title": "Copyrighter",
+      "title": "AutoCopyrighter",
       "properties": {
         "copyrighter.author": {
           "type": "string",
           "default": "",
-          "description": "The author that holds the copyright."
+          "description": "The author (or company) that holds the copyright."
         },
         "copyrighter.license": {
           "type": "string",
@@ -83,7 +83,7 @@
         },
         "copyrighter.newFilesOnly": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Inject Copyright notice in new files only"
         }
       }
