@@ -41,8 +41,7 @@
     "onLanguage:swift",
     "onLanguage:sql",
     "onLanguage:typescript",
-    "onLanguage:typescriptreact",
-    "onLanguage:vue"
+    "onLanguage:typescriptreact"
   ],
   "main": "./out/extension.js",
   "contributes": {
