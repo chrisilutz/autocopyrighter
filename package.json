@@ -19,7 +19,7 @@
   },
   "publisher": "erazemk",
   "preview": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.35.0"
   },
@@ -55,12 +55,12 @@
     "configuration": {
       "title": "AutoCopyrighter",
       "properties": {
-        "copyrighter.author": {
+        "autoCopyrighter.author": {
           "type": "string",
           "default": "",
           "description": "The author (or company) that holds the copyright."
         },
-        "copyrighter.license": {
+        "autoCopyrighter.license": {
           "type": "string",
           "description": "Select a license header to include with your copyright. If no license is selected, then only the copyright will be added to files.",
           "enumDescriptions": [
@@ -76,12 +76,12 @@
             "GPL3"
           ]
         },
-        "copyrighter.note": {
+        "autoCopyrighter.note": {
           "type": "string",
           "default": "",
           "description": "An optional note that can appear at the end of the default copyright notice."
         },
-        "copyrighter.newFilesOnly": {
+        "autoCopyrighter.newFilesOnly": {
           "type": "boolean",
           "default": true,
           "description": "Inject Copyright notice in new files only"
