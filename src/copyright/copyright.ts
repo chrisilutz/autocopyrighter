@@ -32,8 +32,7 @@ export class Copyright {
 
   public header(): string {
     let template = `/*
- *   Copyright (c) ${this.year} ${this.author}
- *   All rights reserved.\n`;
+ * Copyright (c) ${this.year} ${this.author}. All rights reserved.\n`;
 
     if (this.note) {
       template += ` *   ${this.note}\n`;
