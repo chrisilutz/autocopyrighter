@@ -38,7 +38,7 @@ export class Copyright {
       template += ` *   ${this.note}\n`;
     }
 
-    template += ` */\n`;
+    template += ` */\n\n`;
 
     return template;
   }

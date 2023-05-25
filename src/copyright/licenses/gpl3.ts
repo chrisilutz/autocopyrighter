@@ -24,7 +24,7 @@ export class Gpl extends Copyright {
  *   You should have received a copy of the GNU General Public License
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-\n`;
+\n\n`;
     return template;
   }
 }

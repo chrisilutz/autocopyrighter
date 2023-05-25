@@ -24,7 +24,7 @@ export class Apache2 extends Copyright {
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
-\n`;
+\n\n`;
     return template;
   }
 }
