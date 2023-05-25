@@ -22,7 +22,7 @@ import { Mit } from './copyright/licenses/mit';
 import { Gpl } from './copyright/licenses/gpl3';
 
 function getConfiguration(): vscode.WorkspaceConfiguration {
-  return vscode.workspace.getConfiguration('copyrighter');
+  return vscode.workspace.getConfiguration('autoCopyrighter');
 }
 
 export const configuredLanguages = new Set([
