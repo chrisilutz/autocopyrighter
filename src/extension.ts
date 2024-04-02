@@ -1,4 +1,15 @@
 /*
+ * Copyright (c) 2024 Utor.
+ * All rights reserved.
+ *
+ * extension.ts
+ *
+ * asdasdad
+ * hier steht noch mehr
+ */
+
+
+/*
  *   Copyright (c) 2019 Ford Motor Company
  *   All rights reserved.
 
@@ -25,7 +36,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   // Create command hook for manually adding copyright
   let disposable = vscode.commands.registerCommand(
-    'extension.addCopyright',
+    'extension.addMMCopyright',
     () => {
       const copyrightAdded = copyrightService.handleManualCopyrightCheck(vscode.window.activeTextEditor);
       if (copyrightAdded) {

@@ -1,6 +1,6 @@
 {
-  "name": "autocopyrighter",
-  "displayName": "AutoCopyrighter",
+  "name": "MMautocopyrighter",
+  "displayName": "MMAutoCopyrighter",
   "description": "Automates the process of including your copyright and license in your code.",
   "license": "Apache2",
   "keywords": [
@@ -17,9 +17,9 @@
     "type": "git",
     "url": "https://github.com/erazemk/autocopyrighter.git"
   },
-  "publisher": "erazemk",
+  "publisher": "multamedio",
   "preview": true,
-  "version": "0.1.3",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.35.0"
   },
@@ -27,7 +27,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.addCopyright",
+    "onCommand:extension.addMMCopyright",
     "onLanguage:c",
     "onLanguage:cpp",
     "onLanguage:csharp",
@@ -47,12 +47,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.addCopyright",
+        "command": "extension.addMMCopyright",
         "title": "Add Copyright"
       }
     ],
     "configuration": {
-      "title": "AutoCopyrighter",
+      "title": "MMAutoCopyrighter",
       "properties": {
         "autoCopyrighter.author": {
           "type": "string",
@@ -102,5 +102,8 @@
     "typescript": "^3.3.1",
     "vscode": "^1.1.34",
     "vscode-test": "^0.4.3"
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.24.0"
   }
 }
